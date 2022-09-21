@@ -1,9 +1,9 @@
-package ru.mirea.test;
+package ru.mirea.task1;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TestFromTeacher {
+public class Array{
     public static int factorial(int k)
     {
         int i=0,sum=1;

@@ -1,6 +1,6 @@
 package ru.mirea.task8;
 
-public class zad8nom10
+public class num10
 {
     public static int recursion(int n, int i) {
         return (n==0) ? i : recursion( n/10, i*10 + n%10 );

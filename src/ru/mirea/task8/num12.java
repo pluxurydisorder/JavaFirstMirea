@@ -1,6 +1,6 @@
 package ru.mirea.task8;
 
-public class zad8nom12 {
+public class num12 {
     public static void recursion() {
         java.util.Scanner in = new java.util.Scanner(System.in);
         int n = in.nextInt();

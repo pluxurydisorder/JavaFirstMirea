@@ -1,7 +1,7 @@
 package ru.mirea.task8;
 
 import java.util.Scanner;
-public class zad8nom11
+public class num11
 {
     public static int recursion() {
         Scanner in = new Scanner(System.in);

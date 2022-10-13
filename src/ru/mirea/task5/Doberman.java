@@ -6,7 +6,7 @@ public class Doberman extends Dog{
         super(nov, mat);
     }
     public static void main(String[] args) {
-        Doberman posuda = new Doberman("Редкая", "Оранжевая");
+        Doberman posuda = new Doberman("Редкая", "Черная");
         System.out.println("Собака породистая?" + posuda.isporodyastaya() );
         System.out.println("A цвета какого?" + posuda.getraskraska());
     }

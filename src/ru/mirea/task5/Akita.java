@@ -6,7 +6,7 @@ public class Akita extends Dog{
         super(nov, mat);
     }
     public static void main(String[] args) {
-        Akita posuda = new Akita("Obichnaya", "cherno-belaya");
+        Akita posuda = new Akita("Редкая", "Оранжевая");
         System.out.println("Собака породистая?" + posuda.isporodyastaya() );
         System.out.println("A цвета какого?" + posuda.getraskraska());
     }

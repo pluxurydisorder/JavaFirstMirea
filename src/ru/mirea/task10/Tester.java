@@ -14,23 +14,23 @@ class Tester implements Comparator<Student>
         for(i=0;i<3;i++)
         {
             idNumber[i] = new Student();
-            System.out.println("ведите Имя студента:");
+            System.out.println("введите Имя студента:");
             A=in.nextLine();
             idNumber [i] .setName(A);
-            System.out.println("ведите фамилию студента:");
+            System.out.println("введите фамилию студента:");
             A=in.nextLine();
             idNumber [i] .setSurename(A);
-            System.out.println("ведите Специальность студента:");
+            System.out.println("введите Специальность студента:");
             A=in.nextLine();
             idNumber [i] .setSpecialnost(A);
-            System.out.println("ведите курс студента:");
+            System.out.println("введите курс студента:");
             f=in.nextInt();
             idNumber [i] .setKurs(f);
-            System.out.println("ведите Группу студента:");
+            System.out.println("введите Группу студента:");
             A=in.nextLine();
             A=in.nextLine();
             idNumber [i] .setGrupa(A);
-            System.out.println("ведите Средний бал студента:");
+            System.out.println("введите Средний бал студента:");
             f=in.nextInt();
             idNumber [i] .setsrbal(f);
             A=in.nextLine();

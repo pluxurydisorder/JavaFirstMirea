@@ -1,4 +1,4 @@
-package ru.mirea.task32;
+package ru.mirea.task28;
 
 
 public class Auto {

@@ -1,7 +1,5 @@
 package ru.mirea.task24;
 
-import ru.mirea.task24.Chair;
-
 public class Multifunctional implements Chair {
     private String color;
     private int size;
@@ -10,7 +8,7 @@ public class Multifunctional implements Chair {
         size = s;
     }
     public void specialCharacteristic() {
-        System.out.println("I am Multifunctional chair!");
+        System.out.println("Я мультифункциональный стул!");
     }
     public int getSize() {
         return size;
@@ -25,6 +23,6 @@ public class Multifunctional implements Chair {
         this.color = color;
     }
     public String toString() {
-        return "Multifunctional chair: color=" + color + ", size=" + size;
+        return "Мультифункциональный стул: цвет = " + color + ", размер = " + size;
     }
 }

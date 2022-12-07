@@ -10,3 +10,5 @@ public class CreditcardPaymentStrategy implements PaymentStrategy{
         System.out.println("Спасибо за покупку!");
     }
 }
+
+

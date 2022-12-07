@@ -1,7 +1,5 @@
 package ru.mirea.task24;
 
-import ru.mirea.task24.Chair;
-
 public class Victorian implements Chair {
     private String color;
     private int size;
@@ -10,7 +8,7 @@ public class Victorian implements Chair {
         size = s;
     }
     public void specialCharacteristic() {
-        System.out.println("I am Victorian chair!");
+        System.out.println("Я Викторианский стул!");
     }
     public int getSize() {
         return size;
@@ -25,6 +23,6 @@ public class Victorian implements Chair {
         this.color = color;
     }
     public String toString() {
-        return "Victorian chair: color=" + color + ", size=" + size;
+        return "Викторианский стул: цвет = " + color + ", размер = " + size;
     }
 }

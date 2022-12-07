@@ -1,7 +1,5 @@
 package ru.mirea.task24;
 
-import ru.mirea.task24.Chair;
-
 public class Client {
     private String name;
     private int age;
@@ -22,6 +20,6 @@ public class Client {
         this.name = name;
     }
     public void sit(Chair chair) {
-        System.out.println("Client sat down on " + chair.toString());
+        System.out.println("Клиент сел на " + chair.toString());
     }
 }

@@ -1,5 +1,9 @@
 package ru.mirea.task26;
 
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Shop {
     private PaymentStrategy paymentStrategy;
     private ArrayList<String> books = new ArrayList<>();

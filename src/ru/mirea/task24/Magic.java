@@ -1,8 +1,6 @@
 package ru.mirea.task24;
 
-import ru.mirea.task24.Chair;
-
-public class Magic implements Chair {
+public class Magic implements Chair{
     private String color;
     private int size;
     Magic(String c, int s) {
@@ -10,7 +8,7 @@ public class Magic implements Chair {
         size = s;
     }
     public void specialCharacteristic() {
-        System.out.println("I am Magic chair!");
+        System.out.println("Я волшебный стул!");
     }
     public int getSize() {
         return size;
@@ -25,6 +23,6 @@ public class Magic implements Chair {
         this.color = color;
     }
     public String toString() {
-        return "Magic chair: color=" + color + ", size=" + size;
+        return "Волшебный стул: цвет = " + color + ", размер = " + size;
     }
 }

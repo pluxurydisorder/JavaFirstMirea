@@ -1,17 +1,42 @@
 package ru.mirea.task4;
 
-import java.io.IOException;
-import java.util.Scanner;
-import java.io.InputStream;
+class Author {
+    private String name;
+    private String email;
+    private char gender;
+
+    Author(String argName, String argEmail, char argGender) {
+        name = argName;
+        email = argEmail;
+        gender = argGender;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String toString() {
+        return "Author: name=" + name + ", email=" + email + ", gender=" + gender;
+    }
+}
+
+
 public class TestAuthor {
-    public static void main(String[] args)
-    {
-        Scanner input = new Scanner(System.in);
-        String name= input.nextLine();
-        String email =input.nextLine();
-        int kod=input.nextInt();
-        char gender = (char) kod;
-        Author test = new Author(name,email,gender);
-        System.out.println("Все Успешно!");
+    public static void main(String[] args) {
+        Author objectAuthor = new Author("Илья", "", 'М');
+        objectAuthor.setEmail("ivanov2031@mail.ru");
+        System.out.println(objectAuthor.toString());
     }
 }

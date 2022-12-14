@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Iterator;
 import java.util.ArrayList;
-public class MapThis {
+public class MapThis1 {
     public static void main(String[] args) {
         // Task1
         System.out.println("Task1: ");

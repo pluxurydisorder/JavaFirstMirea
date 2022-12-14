@@ -1,5 +1,5 @@
 package ru.mirea.task32;
 
-public interface Talkable {
+public interface Talkeble {
     public void talk();
 }

@@ -1,7 +1,7 @@
 package ru.mirea.task30;
 
 
-public class Calculator {
+public class Calculator1 {
 
     public int getSum(int a, int b) {
         return a + b;

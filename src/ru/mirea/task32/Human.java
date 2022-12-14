@@ -1,6 +1,6 @@
 package ru.mirea.task32;
 
-public abstract class Human implements Talkable {
+public abstract class Human implements Talkeble {
     private int age;
     private String name;
     Human(int age, String name) {

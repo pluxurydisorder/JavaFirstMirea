@@ -1,6 +1,6 @@
 package ru.mirea.task28;
 
-public class App1 {
+public class App {
     public static void main(String[] args) {
         Auto auto = new Auto("BMW", 127000000);
         Auto.InnerNoStatic autoNoStatic = auto.new InnerNoStatic();
